@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="no-js" lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Super Hot Restaurant.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/master.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+
+<body class="wrap-nav-sidebar">
+
+
+    <!------ Loader Start ------>
+    <div id="loader-overlay">
+        <div class="loader-wrapper">
+            <div class="alpha-dots">
+                <div class="alpha-child alpha-dot1"></div>
+                <div class="alpha-child alpha-dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!------ Loader End ------>
+
+
+
+
+    <!------ Header Start ------>
+    <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full">
+
+        <!-- Start Top Search -->
+        <div class="top-search">
+            <div class="container">
+                <div class="input-group"> <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Search -->
+
+
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i>
+            </button>
+            <a href="index.html" class="logo navbar-brand">
+                <img class="logo logo-display" src="assets/images/logo-white.png" alt="">
+                <img class="logo logo-scrolled" src="assets/images/logo-black.png" alt="">
+            </a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
+                <li class="dropdown megamenu-fw"> <a href="home.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                    <ul class="dropdown-menu megamenu-content" role="menu">
+        </div>
+    </nav>
+    <!------ Header End ------>
+
+    <!------ Parallax Start ------>
+    <section class="pt-0 pb-0" id="home">
+        <div class="full-screen-bg">
+            <div class="parallax-img" style="background: url(../assets/images/background/padthai.jpg) center center / cover scroll no-repeat;"></div>
+            <div class="hero-text-wrap video-alpha">
+                <div class="hero-text white-color">
+                    <div class="container text-center">
+                        <h3 class="white-color text-uppercase">Welcome to</h3>
+                        <h1 class="white-color great-font mt-30">Super Hot Restaurant</h1>
+                        <p class="text-center mt-30"><a class="btn btn-outline-white btn-circle" href="view.html">View Tables</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------ Parallax End ------>
+
+    <!------ Book Table Start ------>
+    <section class="contact-us pb-140" id="bookAtable">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 section-heading">
+                    <h2 class="droid-font upper-case">Book a Table</h2>
+                </div>
+            </div>
+            <div class="row mt-50">
+                <div class="col-sm-12 col-md-offset-2 col-md-8">
+                    <form name="contact-form" class="contact-me" id="contact-form" action="php/contact.php" method="POST">
+                        <div class="messages"></div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">Name</label>
+                            <input type="text" name="name" class="form-control" id="name" required="required"
+                                placeholder="Your Name" data-error="Your Name is Required">
+                            <div class="help-block with-errors mt-20"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="email">Email</label>
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Your Email"
+                                required="required" data-error="Please Enter Valid Email">
+                            <div class="help-block with-errors mt-20"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="phone">Phone Number</label>
+                            <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="message">Message</label>
+                            <textarea name="message" class="form-control" id="message" rows="7" placeholder="Your Message"
+                                required data-error="Please, Leave us a message"></textarea>
+                            <div class="help-block with-errors mt-20"></div>
+                        </div>
+                        <p class="text-center"><button type="submit" href="make.html" name="submit" class="btn btn-color btn-circle">Make Reservation</button></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------ Book Table End ------>
+
+    <!-- GO TO TOP  -->
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+    <!-- GO TO TOP End -->
+
+    <!------ Javascript Plugins ------>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/validator.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/master.js"></script>
+    <script src="../assets/js/bootsnav.js"></script>
+
+    <!------ Javascript Plugins End ------>
+</body>
+
+</html>
